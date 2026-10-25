@@ -131,3 +131,9 @@ We have made an easy to use installer to set your robot up!
 
 ### Platform architecture
 We have currently only tested and verified on `ARM 64-bit` and `x86 64-bit`. However, we want the server to support at least `ARM 32-bit` and possibly `x86 32-bit` as well. We are looking into what we can do to make sure these platforms are also supported. The main reason behind wanting to support them is that the server can run on older SBCs. 
+
+## Access Vacuula User Interface to control your robot
+After server installation and configuration and robot configuration, you are ready to control your robot remotely within your network/wifi.
+To access the the Vacuula user interface to control your robot, enter your server's adress with the addition of the port defined in VACUULA_PORT (Default 80). 
+If you are using homeassistant this should be http://homeassistant.local:80 (with the default port 80).
+
